@@ -1,0 +1,16 @@
+{
+    "model_paths": {
+        "clip_model_path": "models/mmproj-model-f16.gguf",
+        "llama_model_path": "models/ggml-model-f16.gguf",
+        "text_model_path": "",
+		"intern_model_path": "models/internlm-xcomposer2-4khd-7b",
+        "intern_tokenizer_path": "models/internlm-xcomposer2-4khd-7b"
+    },
+    "llama_settings": {
+        "temperature": 0.7,
+        "n_ctx": 4096
+    },
+    "proxy": false,
+	"video_frame_count": 2,
+	"use_transformers": false
+}
